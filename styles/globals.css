@@ -94,6 +94,8 @@ body {
   background : linear-gradient( to right, #0096d3 20%, #e74c3c 80%) ;
   background : linear-gradient( to right, #0096d3 20%, #008a50 80%) ; */
   background: #012f3d;
+  background : radial-gradient( circle farthest-corner at right, #000000 20%, #280029 80%) ;
+
 
   /* background: rgb(32, 32, 32); */
   /* background : radial-gradient( circle farthest-corner at top right, #ff9a8b 0%, #f6f6f6 30%) ; */
@@ -141,7 +143,9 @@ body {
 .navbar {
   width: 100%;
   height: 70px;
-  background-color: #05607c;
+  background-color: black;
+  background : linear-gradient( to top left, #3e0155 32%, #260c5c 80%) ;
+
   /* background: -webkit-linear-gradient(45deg, #4b2957, #00535c, #4b2957); */
   /* background : linear-gradient( to right, #d35400 20%, #e74c3c 80%) ; */
 
@@ -149,9 +153,9 @@ body {
   justify-content: space-around;
   align-items: center;
   overflow: hidden;
-  /* border: 2px solid black; */
+  /* border-bottom: 2px solid black; */
   padding: 20px;
-  /* box-shadow: 2px 2px 10px 0px black; */
+  /* box-shadow: 0px 2px 10px 0px rgb(170, 0, 0); */
 }
 
 .navbar .logo {
@@ -1057,6 +1061,8 @@ body {
   background-color: black;
   color: white;
   background-color: #001d25;
+  background : radial-gradient( circle farthest-corner at right, #000000 20%, #280029 80%) ;
+
 
 }
 
@@ -2264,7 +2270,7 @@ h2 {
 .container .about .content-box .content .actions button {
   width: 20%;
   flex-grow: 1;
-  background: rgb(0, 85, 155) !important;
+  background: rgb(0, 97, 24) !important;
   color: #000000;
   /* margin: 5px; */
   margin-right: 2px;
@@ -3006,9 +3012,12 @@ swiper-slide {
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 600px;
   flex-grow: 1;
   max-width: 1000px;
+  box-shadow: inset 0px 2px 1px 1px rgb(0, 0, 0);
+  background: white;
+  padding: 10px;
 }
 
 
@@ -3058,25 +3067,35 @@ swiper-slide {
   width: fit-content;
   height: 100%;
   /* margin: 10px 0; */
+  background: rgb(230, 230, 230);
+
 }
 
 .main-tool-wrapper .search-box-wrapper button {
   /* box-shadow: 1px 1px 0px 0 rgba(255, 0, 0, 0.3), 0 -1px 5px 1px rgba(0, 0, 255, 0.4); */
   /* box-shadow: 3px 1px 9px 0px #27ae60; */
   /* height: 35px; */
-  background-color: white;
+  background-color: rgb(160, 0, 147);
   border: none;
   outline: none;
   cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
 }
 
 .main-tool-wrapper .search-box-wrapper .generate-btn {
   height: 45px;
   font-size: 18px;
   width: 100%;
+  color: white;
+  border-radius: 5px;
+  transition: all .5s;
 }
 
+.main-tool-wrapper .search-box-wrapper .generate-btn:hover {
+  background-color: rgb(88, 0, 81);
 
+}
 
 
 .main-tool-wrapper .options::-webkit-scrollbar {
