@@ -6,8 +6,11 @@ export default function Document() {
     <Html lang="en">
       {/* <Head /> */}
       <Head>
-        <meta name='author' content='NerdyQAi' />
+        <meta name='author' content='' />
+        <meta name="google-site-verification" content="ZHh3yZs2_voQefMs39OTT08JNi8JCRLtpxHHBHbINN0" />
 
+        <meta name="msvalidate.01" content="353536C2E6F297E4C44662168C473C36" />
+       
         {/* ADSTEERA */}
         
         {/* ADSTEERA */}

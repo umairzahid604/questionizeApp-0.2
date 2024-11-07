@@ -21,6 +21,7 @@ import { Reviews } from '@/utils/constants';
 import Banner from '@/components/Banner';
 import MobileBanner from '@/components/MobileBanner';
 // import CheckoutFormContent from '@/components/CheckoutFormContent';
+const toolname = process.env.NEXT_PUBLIC_TOOL_NAME
 
 
 export default function Home({ data }) {
@@ -148,8 +149,8 @@ export default function Home({ data }) {
   return (
     <>
       <Head>
-        <title>Ai Question Answer Generator From Text (free forever!) No Sign-Up/Card Required</title>
-        <meta name="description" content="NerdyQAi is an free AI-powered Question Answer Generator tool that has been designed to help individuals and organizations generate relevant questions from their long-form content, texts, articles, essays, and blog posts." />
+        <title>Ai Question Answer Generator From Text (Free - No Sign-Up !)</title>
+        <meta name="description" content={`${toolname} is an free AI-powered Question Answer Generator tool that has been designed to help individuals and organizations generate relevant questions from their long-form content, texts, articles, essays, and blog posts.`} />
         <meta name="keywords" content="qa generator, question answer, Question Answer Generator tool, AI-powered Question Answer Generator tool, online, free," />
 
 
