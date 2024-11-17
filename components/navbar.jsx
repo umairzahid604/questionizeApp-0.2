@@ -10,7 +10,9 @@ export const Navbar = ({ apiKey }) => {
     const [clickAd, setClickAd] = useState(true)
     const pages = [
         { name: "Home", link: "/" },
+        { name: "Blog", link: "https://blog.questratorai.space" },
         { name: "Get ApiKey", link: "/get-openai-apikey" },
+
 
     ]
 
